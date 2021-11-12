@@ -1,0 +1,31 @@
+{
+  "name": "master-portfolio",
+  "version": "0.1.1",
+  "description": "A clean, beautiful, responsive and 100% customizable portfolio template for Developers!",
+  "main": "index.js",
+  "scripts": {
+    "Dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimalverma558/master-portfolio.git"
+  },
+  "keywords": [
+    "master-portfolio",
+    "portfolio",
+    "portfolio-template"
+  ],
+  "author": "vimalverma558",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vimalverma558/master-portfolio/issues"
+  },
+  "homepage": "https://github.com/vimalverma558/Master-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

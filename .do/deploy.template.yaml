@@ -1,0 +1,10 @@
+spec:
+  name: master-portfolio
+  services:
+  - build_command: cd ./client && npm install && npm run build
+    run_command: npm start
+    environment_slug: node-js
+    git:
+      branch: DO_Dev
+      repo_clone_url: https://github.com/vimalverma558/master-portfolio.git
+    name: master-portfolio
